@@ -16,7 +16,7 @@ public class DiscussPost {
     @Field(type = FieldType.Integer)
     private int userId;
 
-    // 互联网校招
+
     @Field(type = FieldType.Text, analyzer = "ik_max_word", searchAnalyzer = "ik_smart")
     private String title;
 
